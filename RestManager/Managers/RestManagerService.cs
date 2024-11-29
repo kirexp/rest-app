@@ -66,7 +66,7 @@ public class RestManagerService : IRestManagerService
     {
         if (!_groupTableMap.ContainsKey(leavingGroup.GroupId))
         {
-            throw new Exception("Group not found");
+            return;
         }
 
         var groupId = leavingGroup.GroupId;
