@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestManager", "RestManager\RestManager.csproj", "{D8B21A99-A797-4157-9755-D6700409681A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DE75D2D1-2E9D-40E9-823D-A9A74A93F056}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestManager.Tests", "tests\RestManager.Tests\RestManager.Tests.csproj", "{45A906F2-73FE-4AC0-B4B7-F8810382E1E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8B21A99-A797-4157-9755-D6700409681A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8B21A99-A797-4157-9755-D6700409681A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8B21A99-A797-4157-9755-D6700409681A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8B21A99-A797-4157-9755-D6700409681A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45A906F2-73FE-4AC0-B4B7-F8810382E1E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45A906F2-73FE-4AC0-B4B7-F8810382E1E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45A906F2-73FE-4AC0-B4B7-F8810382E1E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45A906F2-73FE-4AC0-B4B7-F8810382E1E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{45A906F2-73FE-4AC0-B4B7-F8810382E1E7} = {DE75D2D1-2E9D-40E9-823D-A9A74A93F056}
+	EndGlobalSection
+EndGlobal
